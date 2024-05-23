@@ -1,0 +1,15 @@
+{
+	"manifest_version": 3,
+	"name": "Duck wrap",
+	"version": "1",
+	"chrome_url_overrides": {
+		"newtab": "main.HTML"
+	},
+	// "omnibox": {
+	// 	"keyword": "d"
+	// },
+	// "permissions": ["tabs"],
+	"host_permissions": [
+		"https://html.duckduckgo.com/*"
+	]
+}
